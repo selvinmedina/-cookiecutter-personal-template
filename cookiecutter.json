@@ -1,0 +1,11 @@
+{
+    "project_title": "Cookiecutter Selvin",
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "A cookiecutter template for Selvin projects.",
+    "project_author_name": "Selvin Medina",
+    "project_packages": [
+        "All",
+        "Minimal"
+    ],
+    "project_python_version": "3.7"
+}
