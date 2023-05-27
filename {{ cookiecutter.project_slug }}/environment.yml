@@ -3,7 +3,8 @@ name: {{ cookiecutter.project_slug }}
 channels:
   - anaconda
   - conda-forge
-  - defaultsdependencies:
+  - defaults
+dependencies:
   {% if cookiecutter.project_packages == "All" -%}
   - fs
   - jupyter
